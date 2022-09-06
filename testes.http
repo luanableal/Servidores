@@ -1,0 +1,24 @@
+GET http://localhost:8081/usuarios
+
+###
+
+POST http://localhost:8081/usuarios
+Content-Type: application/json
+
+{
+    "name": "Joana",
+    "email": "joana@gmail"
+}
+
+###
+
+PUT http://localhost:8081/usuarios/2
+Content-Type: application/json
+
+{
+    "name": "Cristina",
+    "email": "cristinagmail"
+}
+
+###
+DELETE http://localhost:8081/usuarios/2

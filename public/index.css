@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #14BC39;
+}
+
+h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+}
+
+th,
+td {
+    font-size: 18px;
+}
+
+#inputs_section {
+    padding: 40px 60px;
+}
+
+#formulario {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#list_section{
+    margin-top: 40px;
+    padding: 40px 60px;
+}
+
+.linha {
+    height: 1px;
+    background-color: #14BC39;
+}
+
+input[type=text],
+input[type=email] {
+    width: 450px;
+    height: 50px;
+    font-size: 28px;
+    padding-left: 20px;
+    background: #FBFBFB;
+    border: 1px solid #14BC39;
+    border-radius: 5px;
+}
+
+#email {
+    left: 540px;
+}
+
+#btn_cadastrar {
+    width: 250px;
+    height: 50px;
+    font-size: 28px;
+    color: #FFFCFC;
+    background: #14BC39;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 28px;
+}
+
+th,
+td {
+    border: solid 1px #fff;
+    height: 50px;
+    text-align: center;
+}
+
+td {
+    color: #535151;
+}
+
+thead {
+    background-color: #14BC39;
+    color: #fff;
+}
+
+img {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.colorGreen {
+    background-color: #BDE3C6;
+}
+
+.colorGray {
+    background-color: #F8F8F8;
+}
